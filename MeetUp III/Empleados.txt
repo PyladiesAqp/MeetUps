@@ -1,0 +1,27 @@
+
+
+class Personal:
+
+	def __init__(self, nombre, apellido, cargo, area, salario, horasAlMes):
+		self.nombre = nombre
+		self.apellido = apellido
+		self.cargo = cargo
+		self.area = area
+		self.salario = salario
+		self.horasAlMes = horasAlMes
+
+
+	def pagoPorHora(self):
+		return self.salario / self.horasAlMes
+
+	def generarCorreo(self):
+		return self.nombre[0] + self.apellido + '@bsgrupo.com'
+
+	
+personal_1 = Personal('Paola', 'Gamarra', 'Jefa de Proyectos','Sistemas', 2000, 120)
+personal_2 = Personal('Johan', 'Prueba', 'Programador','Sistemas', 2000, 120)
+
+print(personal_1.nombre + ' ' + personal_1.apellido)
+print(personal_1.pagoPorHora())
+print(personal_1.generarCorreo())
+print(Personal.generarCorreo(personal_2))

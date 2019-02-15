@@ -1,0 +1,21 @@
+Tercer Programa Mi RED - Parte 1
+
+Ahora ya cuentas con un programa que interactúa con el usuario con un menú. Partamos con el programa "Segundo Programa Mi RED" de la semana anterior, que te permitía generar un menú con las siguientes funciones:
+
+Obtener datos del usuario
+Consultar y mostrar varios mensajes de estado del usuario
+Escoger entre distintas acciones que el usuario puede realizar
+En esta ocasión, puedes descargar y examinar los contenidos del archivo "MiRedS4-Funciones.py".
+
+MiRedS4-Funciones.py
+EJECUTA EL CÓDIGO
+
+Si corres y revisas el código "MiRedS4-Funciones.py" verás que funciona correctamente, pero que es bastante largo. ¡Tiene casi 140 líneas! Esto no es malo. Sin embargo, si le pones atención, verás que hay código que hemos tenido que repetir varias veces. Por ejemplo, el código para mostrar el perfil de usuario está escrito tres veces. Imagina que ahora queremos agregar un nuevo dato del usuario, por ejemplo, el país donde vive. En este caso, deberíamos modificar al menos tres partes distintas del programa. Esto lo podemos hacer, tal vez sin cometer errores, en un programa pequeño como este. Pero ¿qué pasa con los programas más complejos y largos? En este caso, es muy fácil cometer errores replicando partes del código. Cuando tenemos instrucciones que se repiten varias veces podemos hacer funciones.
+
+Revisa bien el código, ejecútalo y resuelve el Ejercicio 1 que te proponemos .
+
+EJERCICIO 1
+
+Piensa al menos 3 alternativas o funcionalidades del código del archivo "MiRedS4-Funciones.py" que podrían convertirse en función. Modifica el código para incluir estas funciones y no repetir código.
+
+Cuando hayas terminado de ejecutar el código y programar el Ejercicio 1 contesta al cuestionario "Cuestionario Proyecto Mi Red Parte 1: Identificando funciones".

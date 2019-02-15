@@ -1,0 +1,30 @@
+#Es el comportamiento del objeto segun su forma dada
+class Moto():
+
+	def getNumeroRuedas(self):
+		print('Tengo dos Ruedas')
+
+class Auto():
+
+	def getNumeroRuedas(self):
+		print('Tengo 4 ruedas')
+
+class Trailer():
+
+	def getNumeroRuedas(self):
+		print('Tengo mas de 10 ruedas')
+
+
+
+
+def getNumeroRuedasMiVehiculo(vehiculo):
+	vehiculo.getNumeroRuedas()
+
+
+vehiculo1 = Moto()
+vehiculo2 = Auto()
+vehiculo3 = Trailer()
+getNumeroRuedasMiVehiculo(vehiculo1)
+getNumeroRuedasMiVehiculo(vehiculo2)
+getNumeroRuedasMiVehiculo(vehiculo3)
+		

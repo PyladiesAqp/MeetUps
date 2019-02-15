@@ -1,0 +1,44 @@
+
+#Una clase puede tener una solo herencia o multiple herencias
+#Por defecto la clase hija hereda el constructor init y funciones de su padre. En caso este tenga su propio constructor se da mas preferencia
+#a esta
+#Desde el constructor hijo podemos inicializar las variables del constructor Padre
+
+class Personal:
+
+	def __init__(self, nombre, apellido, dni, edad):
+		self.nombre = nombre
+		self.apellido = apellido
+		self.dni = dni
+		self.edad = edad
+
+
+	def generarCorreo(self):
+		print (self.nombre[0] + self.apellido + '@bsgrupo.com')
+
+	def getEdad(self):
+		print(self.edad)
+
+class IngSistemas(Personal):
+	def programar (self, lenguaje):
+		print ('El videojuego lo programare en ' + lenguaje)
+
+class AsesorComercial(Personal):
+
+	def __init__(self, nombre, apellido):
+		self.nombre = nombre
+		self.apellido = apellido
+		super().__init__(nombre, 'constructorPadre', '74624355', 23)
+
+	def vender (self, programa):
+		print ('Tengo que vender Capacitaciones del ' + programa)
+
+
+programador = IngSistemas('Paola', 'Gamarra',75432352,22)
+asesor = AsesorComercial('Ana', 'prueba')
+
+programador.generarCorreo()
+programador.programar('Python')
+asesor.vender('Curso MS Project 2013 aplicado a la Gestión de Proyectos')
+asesor.generarCorreo()
+asesor.getEdad()

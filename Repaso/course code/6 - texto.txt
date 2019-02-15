@@ -1,0 +1,15 @@
+Tercer Programa Mi RED - Parte 3
+
+Ahora ya cuentas con un programa que interactúa con el usuario con un menú, que tiene código encapsulado en funciones y que tiene un programa principal. Partamos con el programa "Tercer Programa Mi RED - Parte 2" y tratemos de mejorarlo. Para ello, hemos creado un archivo llamado "S4Red.py" donde hemos copiado todas las funciones que tenía nuestro programa.
+
+S4Red.py
+El archivo "S4Red.py" lo puedes descargar. Te servirá para llamar a las funciones de generadas sin necesidad de poner su código en el archivo donde se encuentra el programa principal con la instrucción "import". Para partir todos con el mismo código, te pedimos que descargues el archivo "MiRed4c-Funciones.py".
+
+MiRedS4c-Funciones.py
+EJECUTA EL CÓDIGO
+
+Ejecuta el código "MiredS4c-Funciones.py". Como puedes ver, la parte principal de tu programa ahora es aún más corta que en tus programas anteriores. Gran parte de las funcionalidades están encapsuladas en funciones que ahora importamos desde el archivo "S4Red.py".
+
+Al usar funciones, podemos concentrarnos en partes más específicas de nuestro código, y nos ayuda a tenerlo más ordenado y organizado, para pensar mejor.
+
+Cuando hayas terminado de ejecutar el código y leerlo con atención contesta al cuestionario "Cuestionario Proyecto Mi Red Parte 3: Usando módulos".

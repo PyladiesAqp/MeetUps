@@ -1,0 +1,22 @@
+Tercer Programa Mi RED - Parte 2
+
+Ahora ya cuentas con un programa que interactúa con el usuario con un menú y que tiene código encapsulado en funciones. Partamos con el programa "Tercer Programa Mi RED - Parte 1" y tratemos de encapsular el código en distintas funciones. Para partir todos con el mismo código, te pedimos que descargues el archivo "MiRed4b-Funciones.py".
+
+MiRedS4b-Funciones.py
+EJECUTA EL CÓDIGO
+
+Ejecuta el código "MiredS4b-Funciones.py". En este caso, el código permite hacer lo siguiente:
+
+Mensaje de bienvenida al usuario
+Solicitar datos al usuario
+Mostrar el perfil del usuario
+Mostrar un mensaje en pantalla
+Además, este programa organiza en funciones distintas partes del código y las llama desde el programa principal. Como puedes observar en el código, una vez se terminan de definir las funcione, el programa principal empieza a ejecutarse. Si lo lees, verás que es mucho más corto que lo que habíamos programado la semana anterior.
+
+Revisa bien el código, ejecútalo y resuelve el Ejercicio 1 que te proponemos .
+
+EJERCICIO 1
+
+Agrega los atributos "género" y "pais de nacimiento" (no pongas tilde en "país" en tu código) a los datos que se le piden al usuario. Realiza un código que solicite datos y los lea utilizando funciones. Identifica qué partes del código que te facilitamos en "MiredS4b-Funciones.py" debes variar para hacerlo.
+
+Cuando hayas terminado de ejecutar el código y programar el Ejercicio 1 contesta al cuestionario "Cuestionario Proyecto Mi Red Parte 2: Utilizando funciones".

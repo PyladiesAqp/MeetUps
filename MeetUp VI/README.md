@@ -1,3 +1,4 @@
-MeetUp VI
-15 de Febrero 2019
-Acceso y Manipulaci�n de Bases de Datos: Conectores y SQLAlchemy
+MeetUp VI <br>
+Rómulo y César <br>
+15 de Febrero 2019 <br>
+Acceso y Manipulación de Bases de Datos: Conectores y SQLAlchemy

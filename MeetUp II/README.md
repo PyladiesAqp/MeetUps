@@ -1,2 +1,2 @@
-MeetUp II,
-9 de Noviembre 2018 - Citesoft
+MeetUp II <br>
+9 de Noviembre 2018 - Citesoft <br>
